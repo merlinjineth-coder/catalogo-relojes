@@ -28,6 +28,7 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       overflow: hidden;
       text-align: center;
+      padding-bottom: 15px;
     }
     .card img {
       width: 100%;
@@ -37,14 +38,27 @@
     .card h3 {
       margin: 10px 0 5px;
     }
-    .card p {
-      margin: 5px 0;
+    .description {
+      font-size: 14px;
       color: #555;
+      padding: 0 10px;
+    }
+    .features {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+      font-size: 14px;
+      text-align: left;
+      padding-left: 20px;
+    }
+    .features li {
+      margin: 5px 0;
     }
     .price {
       font-weight: bold;
       color: #000;
-      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 16px;
     }
     footer {
       background-color: #111;
@@ -65,17 +79,31 @@
   <section class="container">
     <!-- Producto 1 -->
     <div class="card">
-      <img src="reloj1.jpg" alt="Reloj Clásico">
+      <img src="Reloj Curren 8435 Acero Inoxidable" alt="Reloj Clásico">
       <h3>Reloj Clásico</h3>
-      <p>Acero inoxidable</p>
-      <p class="price">$120.000</p>
+      <p class="description">Reloj Curren 8435 Acero Inoxidable.</p>
+      <ul class="features">
+        <li>✔ Pulso en Acero Inoxidable</li>
+        <li>✔ Sumergible</li>
+        <li>✔ Caja en Acero</li>
+        <li>✔ Cronógrafos funcionales</li>
+        <li>✔ Incluye estuche</li>
+        <li>✔ Garantía 3 meses por maquinaria y agua de cuarzo</li>
+      </ul>
+      <p class="price">$140.000</p>
     </div>
 
     <!-- Producto 2 -->
     <div class="card">
       <img src="reloj2.jpg" alt="Reloj Deportivo">
       <h3>Reloj Deportivo</h3>
-      <p>Resistente al agua</p>
+      <p class="description">Diseñado para actividades deportivas y uso diario.</p>
+      <ul class="features">
+        <li>✔ Cronómetro integrado</li>
+        <li>✔ Resistente al agua</li>
+        <li>✔ Correa de silicona</li>
+        <li>✔ Garantía 6 meses</li>
+      </ul>
       <p class="price">$150.000</p>
     </div>
 
@@ -83,13 +111,19 @@
     <div class="card">
       <img src="reloj3.jpg" alt="Reloj Elegante">
       <h3>Reloj Elegante</h3>
-      <p>Correa de cuero</p>
+      <p class="description">Reloj moderno perfecto para ocasiones especiales.</p>
+      <ul class="features">
+        <li>✔ Correa de cuero</li>
+        <li>✔ Movimiento japonés</li>
+        <li>✔ Tamaño 42 mm</li>
+        <li>✔ Incluye caja original</li>
+      </ul>
       <p class="price">$180.000</p>
     </div>
   </section>
 
   <footer>
-    <p>© 2026 Catálogo de Relojes | Contáctanos por WhatsApp</p>
+    <p>© 2026 Catálogo de Relojes | Ventas por WhatsApp</p>
   </footer>
 
 </body>
